@@ -12,7 +12,8 @@ function updateBackground() {
         body.classList.add('evening');
     } else {
         body.classList.add('night');
-    } 
+    }  
 }
 
-body.append("Hello World!");
+updateBackground();
+setInterval(updateBackground, 60000); // Update every minute

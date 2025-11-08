@@ -1,43 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+
 body {
-    color: rgb(0, 0, 0);
-    text-align: center;
-    font-family: "Avantgarde", TeX Gyre Adventor, URW Gothic L, sans-serif;
-    height: 200vh;
     margin: 0;
+    color: rgb(0, 0, 0);
+    font-family: 'Quicksand', sans-serif;
+    height: 80vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
     transition: background-color 2s ease, color 2s ease;
 }
 
 body.day {
-    background-color: #ffd68f;     /*light orange*/
-    color: #fff;
+    background-color: #f7e389;     /*light orange*/
+    color: #333;
 }
 
 body.afternoon {
-    background-color: #d1f8ff;     /*light blue*/
+    background-color: #76e7fb;     /*light blue*/
     color: #333;
 }
 
 body.evening {
-    background-color: rgb(215, 112, 43);     /*dark orange-red*/
+    background-color: #9d206b;     /*dark pinkish-red*/
     color: #fff;
 }
 
 body.night {
-    background-color: #3b063d;     /*dark pruplish*/
+    background-color: #241052;     /*dark purplish*/
     color: #fff;
 }
 
-header, footer {
-    padding: 20px;
-    background: rgb(255, 255, 255);
+header {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+footer {
+    flex-shrink: 0;
+    padding: 10px 0;
+    text-align: center;
 }
 
 main {
     flex: 1;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+main p {
+    font-size: 1.2rem;
+    margin-top: 10px;
 }
