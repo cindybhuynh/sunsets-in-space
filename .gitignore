@@ -1,0 +1,26 @@
+# --- DEPENDENCIES (Client - React/Node.js) ---
+/client/node_modules
+/client/build
+/client/dist
+/client/npm-debug.log*
+
+# --- DEPENDENCIES (Server - Python/Flask) ---
+# Python virtual environments (essential)
+/server/venv
+/server/.venv
+/server/__pycache__
+*.pyc
+*.o
+*.so
+
+# --- ENVIRONMENTS/SECRETS ---
+# Local environment variables and secrets
+.env
+.flaskenv
+/server/.env
+
+# --- DATABASES/LOGS ---
+# Flask/Python specific databases/logs
+*.sqlite3
+*.db
+/server/*.log
