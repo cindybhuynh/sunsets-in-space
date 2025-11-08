@@ -14,3 +14,5 @@ function updateBackground() {
         body.classList.add('night');
     } 
 }
+
+body.append("Hello World!");
