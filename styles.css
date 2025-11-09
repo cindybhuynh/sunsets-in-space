@@ -53,7 +53,18 @@ main {
 
 h1 {
     margin: 0;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
+}
+
+h2 {
+    margin-top: 10px;
+    font-size: 2.0rem;
+}
+
+#time-display {
+    margin-top: 15px;
+    font-size: 6.0rem;
+    color: #fff;
 }
 
 main p {
