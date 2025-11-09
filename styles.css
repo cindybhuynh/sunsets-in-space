@@ -13,12 +13,12 @@ body {
 }
 
 body.day {
-    background-color: #f7e389;     /*light orange*/
+    background-color: #f1df80;     /*light orange*/
     color: #333;
 }
 
 body.afternoon {
-    background-color: #76e7fb;     /*light blue*/
+    background-color: #42c6dd;     /*light blue*/
     color: #333;
 }
 
@@ -28,7 +28,7 @@ body.evening {
 }
 
 body.night {
-    background-color: #241052;     /*dark purplish*/
+    background-color: #2a1461;     /*dark purplish*/
     color: #fff;
 }
 
