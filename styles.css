@@ -23,7 +23,7 @@ body.afternoon {
 }
 
 body.evening {
-    background-color: #9d206b;     /*dark pinkish-red*/
+    background-color: #B02A7A;     /*dark pinkish-red*/
     color: #fff;
 }
 
@@ -62,7 +62,8 @@ h2 {
 }
 
 #time-display {
-    margin-top: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-size: 6.0rem;
     color: #fff;
 }
@@ -70,4 +71,26 @@ h2 {
 main p {
     font-size: 1.2rem;
     margin-top: 10px;
+}
+
+/* Style the button container */
+#cycle-toggles {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px; /* Space between buttons */
+}
+
+/* Style the buttons */
+#cycle-toggles button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent */
+    color: inherit;
+    transition: background-color 0.3s ease;
+}
+
+#cycle-toggles button:hover {
+    background-color: rgba(255, 255, 255, 0.4);
 }
