@@ -11,10 +11,10 @@ So we decided to create a "sunset clock" so astronauts will be able to follow th
 It runs on UTC time which is the time zone that the International Space Station runs on.
 
 The background color automatically changes at these times:
-6:00 am => day
-12:00 pm => afternoon
-5:00 pm => evening
-8:00 pm => night
+* 6:00 am => day
+* 12:00 pm => afternoon
+* 5:00 pm => evening
+* 8:00 pm => night
 
 ## Features ⭐️
 * Simple responsive design
